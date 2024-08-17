@@ -15,3 +15,6 @@ console.log(devision);
 
 var remainder = num1 % num2;
 console.log(remainder);
+
+var result = 12 === 3;
+console.log(result);
