@@ -45,4 +45,3 @@ function newElement() {
   document.body.appendChild(newParagraph);
 }
 
-
