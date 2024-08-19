@@ -38,9 +38,11 @@ console.log(myVar);
 
 console.log(window.document.body);
 
-function newElement(){
+function newElement() {
   var newParagraph = window.document.createElement("p");
   var text = window.document.createTextNode("Hello This is P tag");
   newParagraph.appendChild(text);
   document.body.appendChild(newParagraph);
 }
+
+

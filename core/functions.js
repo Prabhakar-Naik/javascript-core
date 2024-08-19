@@ -35,3 +35,16 @@ var calculateVTA = function (price) {
 
 calculateVTA(); // expecting value in parameter
 calculateVTA(125);
+
+if (object.hasOwnProperty("name")) {
+  console.log("object has name as an existing property.");
+  //return;
+}
+
+if (!object.hasOwnProperty("kfdkj")) {
+  console.log("object doesn't has name as an existing property.");
+  //return;
+}
+
+console.log(object.name.indexOf("Prabha"));
+console.log(object.name.indexOf("prabha"));
