@@ -64,4 +64,4 @@ anotherFun = () => {
 
 let myName = "prashanth kumar";
 
-console.log(`My name is ${myName}`)
+console.log(`My name is ${myName}`);
